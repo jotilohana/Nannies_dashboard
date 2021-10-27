@@ -57,37 +57,63 @@ body{
 @media only screen and (max-width: 890px){
   .login_div{
     padding: 15px;
+    margin-top: 10%;
   }
   .image_login{
-    width: 100%;
+    width: 90%;
   }
 }
 
 
 @media (max-width: 700px) and (min-width: 600px){
+  .Login_main_container{
+    width: 95%;
+  }
+    
   .login_div{
-    padding: 20px;
-    width: 100%;
+    padding:20px 5px;
+    width: 300px;
     margin: 50px auto;
   }
   .image_login{
-    width: 70%;
+    width: 80%;
     }
-  
+    .firstdiv{
+      margin-right: 2%;
+      width: 70%;
+    }
+    h1{
+    width: 300px;
+    }
+    /* .input{
+      width: 80%;
+    }
+   */
 }
 @media (max-width: 599px){
+  .Login_main_container{
+    width: 95%;
+  }
+  
   .login_div{
     padding:20px 10px;
-    margin:1% ;
-    width: 100%;
+    width: 300px;
+    margin: 50px auto;
     flex: 2;
   }
   .image_login{
-    width: 50%;
-    padding-right: 0;
+    width: 90%;
   }
   .firstdiv{
-    padding-right: 0;
+    margin-right: 2%;
+    width: 70%;
   }
+  h1{
+    width: 300px;
+    }
+    .input{
+      width: 80%;
+    }
+
 }
 

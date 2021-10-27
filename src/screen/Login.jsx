@@ -14,16 +14,16 @@ function Login() {
         <Col md="auto" xs={6}>
           <h1 className="h1tag">Admin Portal</h1>
           <div className="login_div">
-          <h4 className="h4tag">LOG-IN</h4>
+          <h4 className="h4tag">LOGIN</h4>
           <Form>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Group className="mb-3 input" controlId="formBasicEmail">
               <Form.Control type="email" placeholder="Enter email" />
               <Form.Text className="text-muted">
                 We'll never share your email with anyone else.
               </Form.Text>
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formBasicPassword">
+            <Form.Group className="mb-3 input" controlId="formBasicPassword">
               <Form.Control type="password" placeholder="Password" />
             </Form.Group>
             <Form.Group className="mb-3">
