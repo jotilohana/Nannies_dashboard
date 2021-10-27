@@ -1,20 +1,89 @@
-.App_main_div{
+body{
   background-color: rgba(17, 24, 39);
-  color: white;
 }
 
 /* Login */
 .Login_main_container{
-  width: auto;
-  padding: 5%;
+  color: black;
+  width: 70%;
+  background-color: white;
+  margin:4% auto;
+  border: 5px solid rgba(55, 65, 81);
+  border-radius: 25px;
+}
+.firstdiv{
+  padding: 2%;
 }
 .image_login{
   width: 70%;
-  height: 100%;
+  height: 500px;
 }
-.LoginSeconddiv{
-  display: flex;
+.login_div{
+  margin:20px auto;
+  padding: 35px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
 }
-.input{
-  width: 100%;
+
+.h1tag{
+  margin: 7% auto;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  color: rgba(55, 65, 81);
+}
+.h4tag{
+  margin: 5%;
+  text-align: center;
+}
+.link{
+  color: rgba(55, 65, 81);
+  text-decoration:none;
+  font-weight: bold;
+}
+.link:hover {
+  color: rgba(17, 24, 39);
+}
+.btn {
+  background-color: black;
+  color: white;
+}
+.btn:hover{
+  background-color:rgba(55, 65, 81);
+}
+
+/* RESPONSIVE  */
+
+@media only screen and (max-width: 890px){
+  .login_div{
+    padding: 15px;
+  }
+  .image_login{
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 700px) and (min-width:600px){
+  .login_div{
+    padding: 20px;
+  }
+  .image_login{
+    width: 70%;
+    }
+  /* .Login_main_container{
+    margin-top: 30% auto;
+  } */
+}
+@media (max-width: 599px){
+  .login_div{
+    padding: 20px;
+    margin: auto;
+  }
+  .image_login{
+    width: 100%;
+  }
+  /* .Login_main_container{
+    margin-top: 30% auto;
+  } */
 }
