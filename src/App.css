@@ -64,26 +64,30 @@ body{
 }
 
 
-@media (max-width: 700px) and (min-width:600px){
+@media (max-width: 700px) and (min-width: 600px){
   .login_div{
     padding: 20px;
+    width: 100%;
+    margin: 50px auto;
   }
   .image_login{
     width: 70%;
     }
-  /* .Login_main_container{
-    margin-top: 30% auto;
-  } */
+  
 }
 @media (max-width: 599px){
   .login_div{
-    padding: 20px;
-    margin: auto;
+    padding:20px 10px;
+    margin:1% ;
+    width: 100%;
+    flex: 2;
   }
   .image_login{
-    width: 100%;
+    width: 50%;
+    padding-right: 0;
   }
-  /* .Login_main_container{
-    margin-top: 30% auto;
-  } */
+  .firstdiv{
+    padding-right: 0;
+  }
 }
+
